@@ -1,0 +1,52 @@
+.textfield {
+  width: 208px;
+  position: relative;
+
+  input {
+    width: 100%;
+    outline: none;
+    padding: 12px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #B7BAC1;
+    background: #FFFFFF;
+    border: 1px solid #B7BAC1;
+    border-radius: 10px;
+    letter-spacing: -0.5px;
+    transition: .3s;
+
+    &:hover {
+      color: #5C5C5C;
+
+      &::placeholder {
+        color: #5C5C5C;
+      }
+    }
+
+    &::placeholder {
+      color: #B7BAC1;
+    }
+
+    &:focus {
+      border-color: #5C87DB;
+
+      + label {
+        color: #5C87DB;
+      }
+    }
+
+  }
+
+  label {
+    position: absolute;
+    left: 1px;
+    top: -13px;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    color: #5C5C5C;
+  }
+
+}

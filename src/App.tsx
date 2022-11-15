@@ -1,19 +1,15 @@
 import React from 'react';
-import {CustomDatePicker} from './components/CustomDatePicker';
-import {TextField} from '@mui/material';
+import './components/TextField/textfield.scss';
+import 'react-calendar/dist/Calendar.css';
+import {Tickets} from './pages/flight-card/Tickets';
 
 const App = () => {
     return (
-        <div style={{
-            height: '100vh',
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            // background: '#AEC3ED'
-        }}>
-            <CustomDatePicker/>
+        <div>
+            <Tickets/>
         </div>
     );
 };
 
 export default App;
+

@@ -1,0 +1,24 @@
+.search-form {
+  width: 962px;
+  margin: 68px auto 0px auto;
+  background: #FFFFFF;
+
+  &__top {
+    height: 100px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    background: #5C87DB;
+    border-radius: 15px 15px 0px 0px;
+  }
+
+  &__bottom {
+    height: 86px;
+    padding: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: 0px 0px 14px rgba(112, 121, 153, 0.3);
+    border-radius: 0px 0px 15px 15px;
+  }
+}
